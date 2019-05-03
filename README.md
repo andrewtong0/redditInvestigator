@@ -1,12 +1,12 @@
-# redditInvestigator
+# ![Icon](https://i.imgur.com/Q2jBQLJ.png) redditInvestigator
 
 ### What it does and why
 - In my spare time, I help moderate a few subreddits. Periodically, we would encounter waves of users from malicious subreddits that would attempt to flood our subreddits with inappropriate posts.
-- This tool checks the most recent posters on a list of specified subreddits, and checks their account history. If they've participated in one of the user-defined malicious subreddits, the Discord bot will notify you of their post.
+- This tool aims to assist with this problem by finding the most recent posters on a list of specified subreddits, and checks their account history. If they've participated in one of the user-defined "malicious" subreddits, the Discord bot will notify you of their post for further action.
 
 ### Dependencies
 - **feedparser**: Parses the Reddit RSS feed
-- **discord.py**: To notify of malicious users
+- **discord.py**: For notifications besides printing to console
 - **asyncio**: Allows for delay between subsequent checks
 
 ### Requirements
